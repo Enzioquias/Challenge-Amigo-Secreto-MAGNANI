@@ -1,4 +1,4 @@
-<em> # Juego del Amigo Secreto - Programa ONE de Oracle & Alura, alumno Magnani </em>
+<h1> <em>Juego del Amigo Secreto - Programa ONE de Oracle & Alura, alumno Magnani </em> </h1>
 
 <h2>Descripción del Proyecto</h2>
 
