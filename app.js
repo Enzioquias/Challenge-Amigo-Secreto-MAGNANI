@@ -24,3 +24,16 @@ const escribirLista = () => {
     listaEscrita.appendChild(li);
   }
 };
+
+const sortearAmigo = () => {
+  if (amigos.length == 0) {
+    alert("No has agregado amigos, agrega algunos para iniciar el sorteo");
+  } else if (amigos.length == 1) {
+    alert("Solo has agregado un amigo/a, agrega más para realizar un sorteo!");
+  } else {
+    let numeroSorteado = Math.floor(Math.random() * amigos.length);
+    let amigoSorteado = amigos[numeroSorteado];
+
+    document.querySelector("#resultado").innerText=`${amigoSorteado}`;
+  }
+};
